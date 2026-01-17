@@ -1,0 +1,11 @@
+button{
+    display: inline-block;
+    background-color: skyblue;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid skyblue;
+}

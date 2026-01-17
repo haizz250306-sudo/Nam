@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile {
+  background-color: white;
+  width: 340px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(1, 2, 2, 0.3);
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.profile h1 {
+  font-weight: 900;
+  font-size: 18px;
+  margin: 10px 0;
+  color: black;
+}
+
+.profile p {
+  font-weight: 540;
+  font-size: 16px;
+  margin: 3px 0 20px;
+  color: black;
+}
+
+.mxh a {
+  /* display: inline - block; */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: pink;
+  border-radius: 10px;
+  margin: 5px;
+  color: white;
+}
